@@ -1,0 +1,1117 @@
+{
+    "name": "Building",
+    "address": "demo_address",
+    "numberOfLevels": 3,
+    "levels": [
+        {
+            "layerName": "Level 1",
+            "numberOfSpots": 66,
+            "canvas": {
+                "width": 1221,
+                "height": 1614
+            },
+            "spots": [
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 933,
+                        "y": 453
+                    },
+                    "parkingNumber": "D12"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 933,
+                        "y": 381
+                    },
+                    "parkingNumber": "D13"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 933,
+                        "y": 309
+                    },
+                    "parkingNumber": "D14"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 828,
+                        "y": 150
+                    },
+                    "parkingNumber": "C8"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 762,
+                        "y": 409
+                    },
+                    "parkingNumber": "C14"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 761,
+                        "y": 1065
+                    },
+                    "parkingNumber": "A10"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 756,
+                        "y": 150
+                    },
+                    "parkingNumber": "C7"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 690,
+                        "y": 409
+                    },
+                    "parkingNumber": "C13"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 690,
+                        "y": 1065
+                    },
+                    "parkingNumber": "A9"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 684,
+                        "y": 150
+                    },
+                    "parkingNumber": "C6"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 618,
+                        "y": 409
+                    },
+                    "parkingNumber": "C12"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 612,
+                        "y": 150
+                    },
+                    "parkingNumber": "C5"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 540,
+                        "y": 150
+                    },
+                    "parkingNumber": "C4"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 468,
+                        "y": 150
+                    },
+                    "parkingNumber": "C3"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 396,
+                        "y": 150
+                    },
+                    "parkingNumber": "C2"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 324,
+                        "y": 150
+                    },
+                    "parkingNumber": "C1"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 540,
+                        "y": 1324
+                    },
+                    "parkingNumber": "A1"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 468,
+                        "y": 1324
+                    },
+                    "parkingNumber": "A2"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 396,
+                        "y": 1324
+                    },
+                    "parkingNumber": "A3"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 324,
+                        "y": 1324
+                    },
+                    "parkingNumber": "A4"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 546,
+                        "y": 409
+                    },
+                    "parkingNumber": "C11"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 474,
+                        "y": 409
+                    },
+                    "parkingNumber": "C10"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 402,
+                        "y": 409
+                    },
+                    "parkingNumber": "C9"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 618,
+                        "y": 1065
+                    },
+                    "parkingNumber": "A8"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 546,
+                        "y": 1065
+                    },
+                    "parkingNumber": "A7"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 474,
+                        "y": 1065
+                    },
+                    "parkingNumber": "A6"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 402,
+                        "y": 1065
+                    },
+                    "parkingNumber": "A5"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 682,
+                        "y": 561
+                    },
+                    "parkingNumber": "D21"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 932,
+                        "y": 525
+                    },
+                    "parkingNumber": "D11"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 683,
+                        "y": 633
+                    },
+                    "parkingNumber": "D20"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 933,
+                        "y": 597
+                    },
+                    "parkingNumber": "D10"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 683,
+                        "y": 705
+                    },
+                    "parkingNumber": "D19"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 933,
+                        "y": 669
+                    },
+                    "parkingNumber": "D9"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 683,
+                        "y": 777
+                    },
+                    "parkingNumber": "D18"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 933,
+                        "y": 741
+                    },
+                    "parkingNumber": "D8"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 683,
+                        "y": 849
+                    },
+                    "parkingNumber": "D17"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 933,
+                        "y": 813
+                    },
+                    "parkingNumber": "D7"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 683,
+                        "y": 921
+                    },
+                    "parkingNumber": "D16"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 683,
+                        "y": 993
+                    },
+                    "parkingNumber": "D15"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 402,
+                        "y": 561
+                    },
+                    "parkingNumber": "B21"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 403,
+                        "y": 633
+                    },
+                    "parkingNumber": "B20"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 403,
+                        "y": 705
+                    },
+                    "parkingNumber": "B19"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 403,
+                        "y": 777
+                    },
+                    "parkingNumber": "B18"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 403,
+                        "y": 849
+                    },
+                    "parkingNumber": "B17"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 403,
+                        "y": 921
+                    },
+                    "parkingNumber": "B16"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 403,
+                        "y": 993
+                    },
+                    "parkingNumber": "B15"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 933,
+                        "y": 885
+                    },
+                    "parkingNumber": "D6"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 931,
+                        "y": 957
+                    },
+                    "parkingNumber": "D5"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 931,
+                        "y": 1029
+                    },
+                    "parkingNumber": "D4"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 931,
+                        "y": 1101
+                    },
+                    "parkingNumber": "D3"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 931,
+                        "y": 1173
+                    },
+                    "parkingNumber": "D2"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 931,
+                        "y": 1245
+                    },
+                    "parkingNumber": "D1"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 152,
+                        "y": 453
+                    },
+                    "parkingNumber": "B12"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 152,
+                        "y": 381
+                    },
+                    "parkingNumber": "B13"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 152,
+                        "y": 309
+                    },
+                    "parkingNumber": "B14"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 151,
+                        "y": 525
+                    },
+                    "parkingNumber": "B11"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 152,
+                        "y": 597
+                    },
+                    "parkingNumber": "B10"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 152,
+                        "y": 669
+                    },
+                    "parkingNumber": "B9"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 152,
+                        "y": 741
+                    },
+                    "parkingNumber": "B8"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 152,
+                        "y": 813
+                    },
+                    "parkingNumber": "B7"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 152,
+                        "y": 885
+                    },
+                    "parkingNumber": "B6"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 150,
+                        "y": 957
+                    },
+                    "parkingNumber": "B5"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 150,
+                        "y": 1029
+                    },
+                    "parkingNumber": "B4"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 150,
+                        "y": 1101
+                    },
+                    "parkingNumber": "B3"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 150,
+                        "y": 1173
+                    },
+                    "parkingNumber": "B2"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 150,
+                        "y": 1245
+                    },
+                    "parkingNumber": "B1"
+                }
+            ]
+        },
+        {
+            "layerName": "Level 2",
+            "numberOfSpots": 16,
+            "canvas": {
+                "width": 1015,
+                "height": 1013
+            },
+            "spots": [
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 805,
+                        "y": 150
+                    },
+                    "parkingNumber": "M8"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 733,
+                        "y": 150
+                    },
+                    "parkingNumber": "M7"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 661,
+                        "y": 150
+                    },
+                    "parkingNumber": "M6"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 589,
+                        "y": 150
+                    },
+                    "parkingNumber": "M5"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 517,
+                        "y": 150
+                    },
+                    "parkingNumber": "M4"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 445,
+                        "y": 150
+                    },
+                    "parkingNumber": "M3"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 373,
+                        "y": 150
+                    },
+                    "parkingNumber": "M2"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 301,
+                        "y": 150
+                    },
+                    "parkingNumber": "M1"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 150,
+                        "y": 443
+                    },
+                    "parkingNumber": "F3"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 150,
+                        "y": 371
+                    },
+                    "parkingNumber": "F2"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 150,
+                        "y": 299
+                    },
+                    "parkingNumber": "F1"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 149,
+                        "y": 515
+                    },
+                    "parkingNumber": "F4"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 150,
+                        "y": 587
+                    },
+                    "parkingNumber": "F5"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 150,
+                        "y": 659
+                    },
+                    "parkingNumber": "F6"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 150,
+                        "y": 731
+                    },
+                    "parkingNumber": "F7"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 140,
+                        "height": 60
+                    },
+                    "onCanvasCoords": {
+                        "x": 150,
+                        "y": 803
+                    },
+                    "parkingNumber": "F8"
+                }
+            ]
+        },
+        {
+            "layerName": "Level 3",
+            "numberOfSpots": 8,
+            "canvas": {
+                "width": 864,
+                "height": 440
+            },
+            "spots": [
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 654,
+                        "y": 150
+                    },
+                    "parkingNumber": "T8"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 582,
+                        "y": 150
+                    },
+                    "parkingNumber": "T7"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 510,
+                        "y": 150
+                    },
+                    "parkingNumber": "T6"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 438,
+                        "y": 150
+                    },
+                    "parkingNumber": "T5"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 366,
+                        "y": 150
+                    },
+                    "parkingNumber": "T4"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 294,
+                        "y": 150
+                    },
+                    "parkingNumber": "T3"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 222,
+                        "y": 150
+                    },
+                    "parkingNumber": "T2"
+                },
+                {
+                    "isFree": true,
+                    "canvas": {
+                        "width": 60,
+                        "height": 140
+                    },
+                    "onCanvasCoords": {
+                        "x": 150,
+                        "y": 150
+                    },
+                    "parkingNumber": "T1"
+                }
+            ]
+        }
+    ]
+}
