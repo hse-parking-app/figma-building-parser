@@ -63,14 +63,13 @@ def main():
     while True:
         print("Are you ready to send output.json to backend? y/n")
         inp = input().lower()
-        match inp:
-            case "y":
-                sendTo("http://localhost:8080")
-                break
-            case "n":
-                exit()
-            case _:
-                continue
+        if inp == "y":
+            sendTo("http://localhost:8080")
+            break
+        elif inp == "n":
+            exit(0)
+        else:
+            continue
 
 
 if __name__ == '__main__':
