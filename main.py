@@ -12,7 +12,7 @@ def sent_to_url(parsed_json, url="http://localhost:8080"):
     post_building = {"name": data["name"], "address": data["address"], "numberOfLevels": data["numberOfLevels"]}
     response = re.post(url + "/building", json=post_building, headers=auth)
     building_id = response.json()["id"]
-    print(f"{response.json()}")
+    print(f"Took {response.elapsed.microseconds / 1000} ms {response.json()}")
 
     for level in list(data["levels"]):
         post_level = {"buildingId": building_id, "layerName": level["layerName"],
@@ -20,7 +20,7 @@ def sent_to_url(parsed_json, url="http://localhost:8080"):
                       "canvas": {"width": level["canvas"]["width"], "height": level["canvas"]["height"]}}
         response = re.post(url + "/parkingLevels", json=post_level, headers=auth)
         level_id = response.json()["id"]
-        print(f"{response.json()}")
+        print(f"Took {response.elapsed.microseconds / 1000} ms {response.json()}")
         for spot in list(level["spots"]):
             post_spot = {"isAvailable": spot["isAvailable"],
                          "isFree": True,
@@ -30,7 +30,7 @@ def sent_to_url(parsed_json, url="http://localhost:8080"):
                          "levelId": level_id,
                          "buildingId": building_id}
             response = re.post(url + "/parkingSpots", json=post_spot, headers=auth)
-            print(f"{response.json()}")
+            print(f"Took {response.elapsed.microseconds / 1000} ms {response.json()}")
 
 
 def main(input_file="building.json", output_file="output.json"):
@@ -78,7 +78,7 @@ def main(input_file="building.json", output_file="output.json"):
         json.dump(result, out, indent=4, ensure_ascii=False)
 
     while True:
-        print("Are you ready to send output.json to backend? y/n")
+        print(f"Are you ready to send {output_file} to backend? y/n")
         inp = input().lower()
         if inp == "y":
             sent_to_url(output_file)
