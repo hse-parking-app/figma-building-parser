@@ -7,7 +7,9 @@ def sent_to_url(parsed_json, url="http://localhost:8080"):
     with open(parsed_json, encoding="utf-8") as f:
         data = json.load(f)
 
-    auth = {"Authorization": "Basic YWRtaW46YWRtaW4="}  # admin:admin
+    response = re.post(url + "/auth/login", json={"email": "a@a.a", "password": "a"})
+
+    auth = {"Authorization": "Bearer " + response.json()["accessToken"]}
 
     post_building = {"name": data["name"], "address": data["address"], "numberOfLevels": data["numberOfLevels"]}
     response = re.post(url + "/building", json=post_building, headers=auth)
