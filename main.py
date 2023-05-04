@@ -17,7 +17,7 @@ def sent_to_url(parsed_json, url="http://localhost:8080"):
     print(f"Took {response.elapsed.microseconds / 1000} ms {response.json()}")
 
     for level in list(data["levels"]):
-        post_level = {"buildingId": building_id, "layerName": level["layerName"],
+        post_level = {"buildingId": building_id, "levelNumber": level["levelNumber"],
                       "numberOfSpots": level["numberOfSpots"],
                       "canvas": {"width": level["canvas"]["width"], "height": level["canvas"]["height"]}}
         response = re.post(url + "/parkingLevels", json=post_level, headers=auth)
@@ -49,7 +49,7 @@ def main(input_file="building.json", output_file="output.json"):
     for i in levels:
         if i["type"] == "FRAME":
             spots = list(i["children"])
-            level = {"layerName": i["name"],
+            level = {"levelNumber": int(i["name"]),
                      "numberOfSpots": len(spots),
                      "canvas": {"width": i["width"], "height": i["height"]},
                      "spots": []}

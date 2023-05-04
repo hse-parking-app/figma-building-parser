@@ -4,7 +4,7 @@
     "numberOfLevels": 3,
     "levels": [
         {
-            "layerName": "Level 1",
+            "levelNumber": 0,
             "numberOfSpots": 66,
             "canvas": {
                 "width": 1222,
@@ -872,7 +872,7 @@
             ]
         },
         {
-            "layerName": "Level 2",
+            "levelNumber": 1,
             "numberOfSpots": 16,
             "canvas": {
                 "width": 1043,
@@ -1090,7 +1090,7 @@
             ]
         },
         {
-            "layerName": "Level 3",
+            "levelNumber": 2,
             "numberOfSpots": 8,
             "canvas": {
                 "width": 864,
