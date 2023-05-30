@@ -3,7 +3,7 @@ import json
 import requests as re
 
 
-def sent_to_url(parsed_json, url="http://localhost:8080"):
+def sent_to_url(parsed_json, url):
     with open(parsed_json, encoding="utf-8") as f:
         data = json.load(f)
 
@@ -35,9 +35,9 @@ def sent_to_url(parsed_json, url="http://localhost:8080"):
             print(f"Took {response.elapsed.microseconds / 1000} ms {response.json()}")
 
 
-def main(input_file="building.json", output_file="output.json"):
-    f = open(input_file)
-    data = json.load(f)
+def main(input_file="building.json", output_file="output.json", url="http://localhost:8080"):
+    with open(input_file) as in_file:
+        data = json.load(in_file)
 
     levels = list(data["children"])
     levels.reverse()
@@ -76,14 +76,14 @@ def main(input_file="building.json", output_file="output.json"):
             if i["name"] == "Building address":
                 result["address"] = i["characters"]
 
-    with open(output_file, "w") as out:
-        json.dump(result, out, indent=4, ensure_ascii=False)
+    with open(output_file, "w") as out_file:
+        json.dump(result, out_file, indent=4, ensure_ascii=False)
 
     while True:
-        print(f"Are you ready to send {output_file} to backend? y/n")
+        print(f"Are you ready to send {output_file} to {url}? y/n")
         inp = input().lower()
         if inp == "y":
-            sent_to_url(output_file)
+            sent_to_url(output_file, url)
             break
         elif inp == "n":
             exit(0)
@@ -92,7 +92,7 @@ def main(input_file="building.json", output_file="output.json"):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) >= 3:
-        main(sys.argv[1], sys.argv[2])
+    if len(sys.argv) == 4:
+        main(sys.argv[1], sys.argv[2], sys.argv[3])
     else:
         main()
